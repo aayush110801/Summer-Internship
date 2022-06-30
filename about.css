@@ -1,0 +1,284 @@
+.header_a
+{
+    display: flex;
+    justify-content: space-between;  
+    width: 1325px;
+    height: 130px;
+    border: 1px solid black;
+    padding-left: 20px;    
+}
+.logo{
+    padding: 10px;
+    color:aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+.menu
+{
+    display: flex;
+    margin: 50px;
+    text-decoration: none;
+    direction: row;
+}
+.menu a:hover{
+    color: red;
+}
+
+li
+{
+    list-style:none
+    margin 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+a{
+    text-decoration: none;
+    color:gold;
+    font-size: 25px;
+}
+.banner{
+    background-image: url("bg.jpg");
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.line{
+    height: 5px;
+    width: 50px;
+    background-color:orangered;
+    margin: auto auto;
+}
+
+.text{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+    display: grid;
+    font-weight: bold;
+    margin: 1em 1em 0px 0px;
+}
+h4{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.container{
+    background-color: aqua;
+}
+.award-1{
+    margin: 1rem;
+    display: grid;
+    text-align: center;
+}
+.award-2{
+    margin: 1rem;
+    display: grid;
+    text-align: center;
+}
+.award-3{
+    margin: 1rem;
+    display: grid;
+    text-align: center;
+}
+#html{
+    margin-left: 50px;
+}
+#progressHtml{
+   height: 20px;
+   background: gray;
+   border-radius: 10px;
+   overflow: hidden;
+}
+#progressDoneHtml{
+    height: 100px;
+    background-color: yellow;
+    width: 0;
+    transition: 3s ease 0.3s;
+}
+#Css{
+    margin-left: 50px;
+}
+#progressCss{
+    height: 20px;
+    background: gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#progressDoneCss{
+    height: 100px;
+    background-color: yellow;
+    width: 0;
+    transition: 3s ease 0.3s;
+}
+#Bootstrap{
+    margin-left: 50px;
+}
+#progressBootstrap{
+    height: 20px;
+    background: gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#progressDoneBootstrap{
+    height: 100px;
+    background-color: yellow;
+    width: 0;
+    transition: 3s ease 0.3s;
+}
+#Saas{
+    margin-left: 50px;
+}
+#progressSaas{
+    height: 20px;
+    background: gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#progressDoneSaas{
+    height: 100px;
+    background-color: yellow;
+    width: 0;
+    transition: 3s ease 0.3s;
+}
+#Javascript{
+    margin-left: 50px;
+}
+#progressJavascript{
+    height: 20px;
+    background: gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#progressDoneJavascript{
+    height: 100px;
+    background-color: yellow;
+    width: 0;
+    transition: 3s ease 0.3s;
+}
+#ReactJS{
+    margin-left: 50px;
+}
+#progressReactJS{
+    height: 20px;
+    background: gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#progressDoneReactJS{
+    height: 100px;
+    background-color: yellow;
+    width: 0;
+    transition: 3s ease 0.3s;
+}
+#main-nav ul{
+    display: flex;
+}
+#main-nav ul li{
+    padding: 1rem 1.5rem;
+}
+.counter-container{
+    justify-content: center;
+    text-align: center;
+    margin: 30px 50px;
+}
+.counter{
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.increment-counter{
+    background-color: #ffbc00;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    margin: 0;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color:white;
+    padding: 8%;
+    
+    
+}
+.footer-div{
+
+    width: 33%;
+    margin-inline: 3%;
+    overflow: hidden;
+    text-align: left;
+    font-size: larger;
+    
+    
+}
+
+.footerLine  {
+    margin: 10px 0px 10px 0px;
+    width: 60px;
+    border-bottom: 2px solid #ffbc00;
+    
+}
+
+ul{
+    align-content: flex-start;
+    list-style: none;  
+    padding-left: 0px;
+    margin-bottom: 5px;  
+}
+.footer-div{
+    line-height: 1.5rem;
+}
+.footer-div .social-icon i{
+    display: inline-block !important;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center !important;
+    line-height: 40px !important;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-div .social-icon i:hover{
+    background: #ffbc00; 
+}
+.contact-info h3{
+    text-align: left;
+}
+.contact-info a{
+    padding: 15px;
+    transition: all 1s;
+}
+.contact-info a:hover{
+    background-color: #ffbc00;
+}
+
+.footer-div a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+.footer-link a:hover{
+    color: #ffbc00;
+    margin-left: 20px;
+    transition: all 1s;
+
+}
+.contact-info div{
+    padding: 10px 0px 20px 0px;
+}
